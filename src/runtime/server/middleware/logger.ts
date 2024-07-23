@@ -5,7 +5,7 @@ import { useRuntimeConfig } from '#imports'
 export default defineEventHandler((event) => {
   const config = useRuntimeConfig()
 
-  const options = config.VrcdServerSideLogging as LoggerOptions ?? {
+  const options = config.vrcdServerSideLogging as LoggerOptions ?? {
     enabled: false,
   }
 

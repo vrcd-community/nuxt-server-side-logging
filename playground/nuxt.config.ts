@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   runtimeConfig: {
-    VrcdServerSideLogging: {
+    vrcdServerSideLogging: {
       enabled: true,
       postLogEnabled: false,
     },
